@@ -2,7 +2,12 @@
   "name": "terminal-app",
   "version": "1.0.0",
   "description": "",
-  "keywords": ["node", "terminal", "app", "colors"],
+  "keywords": [
+    "node",
+    "terminal",
+    "app",
+    "colors"
+  ],
   "main": "app.js",
   "scripts": {
     "dev": "node --watch app",
@@ -11,6 +16,7 @@
   "author": "Carlos Salega",
   "license": "MIT",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "inquirer": "^9.1.5"
   }
 }
